@@ -1,11 +1,4 @@
-// first of all, I detect my canvas and set the width
-// and height of it as large as the screen.
-let canvas = document.getElementById("canvas");
-canvas.height = window.innerHeight;
-canvas.width = window.innerWidth;
 
-// then I get and save the context of my canvas as **ctx** also,
-const ctx = canvas.getContext("2d");
 
 // in order to have easy access to the min/max of the canvas sides
 // in the future, I take them and put in the variables
